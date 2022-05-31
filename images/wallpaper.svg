@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="256.448" y1="27.884" x2="256.448" y2="495.498" id="gradient-1" gradientTransform="matrix(1, 0, 0, 1, 25.77518, -30.868601)">
+      <stop offset="0" style="stop-color: rgba(204, 197, 172, 1)"/>
+      <stop offset="1" style="stop-color: rgba(165, 153, 109, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="282.223" y1="-2.984" x2="282.223" y2="464.629" id="gradient-0" gradientTransform="matrix(0.758926, -0.651176, 0.777118, 0.905707, -74.395973, 219.969167)">
+      <stop offset="0" style="stop-color: rgb(255, 178, 36);"/>
+      <stop offset="1" style="stop-color: rgb(219, 142, 0);"/>
+    </linearGradient>
+  </defs>
+  <path style="stroke: url(#gradient-1); stroke-linecap: round; stroke-width: 0px; stroke-miterlimit: 1; paint-order: fill markers; fill-rule: nonzero; fill: url(#gradient-0);" d="M 70.823 -2.048 C 27.031 -4.394 37.032 182.169 72.686 184.084 C 115.951 274.101 130.526 360.235 138.498 374.613 L 157.639 451.195 C 192.67 471.283 331.535 472.201 322.119 475.459 C 479.263 494.917 521.521 457.025 508.346 463.993 C 516.768 396.891 537.47 388.17 507.813 -2.984 L 70.823 -2.048 Z" transform="matrix(0.999993, -0.003608, 0.003608, 0.999993, -0.830971, 1.019765)"/>
+</svg>
