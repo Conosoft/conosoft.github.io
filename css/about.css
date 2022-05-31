@@ -1,0 +1,119 @@
+/*
+    BODY BACKGROUND
+*/
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+
+
+.background {
+    background: #fc7208;
+    background: linear-gradient(bottom, #f77062, #fc7208);
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+.header > div {
+    margin-top: 60px;
+    width: 1100px;
+    display: flex;
+}
+
+.header-title {
+    font-size: 40px;
+}
+
+.header-desc {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 150%
+}
+
+.header-image {
+    height: 400px;
+    margin-left: 100px
+}
+
+/*
+    TEAM MEMBER
+*/
+
+.member-list {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.member-list > div {  
+    width: 1400px;
+}
+
+.member-list > div > div {  
+    margin-top: 50px;
+}
+
+.member-list > div > div:first-child {  
+    margin-top: 0px;
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+
+}
+
+.member-desc  {
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.member > div > h1 {
+    font-size: 40px;
+    padding: 0px 100px;
+}
+
+.member > div > p {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 0px 80px;
+}
+
+.member-image {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 50px;
+    
+}
+
+
+/*
+    FOOTER
+*/
+
+.footer {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}

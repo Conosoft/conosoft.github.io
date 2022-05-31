@@ -21,6 +21,69 @@ Primary use:
   src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf'); 
 }
 
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url('../fonts/Ubuntu/Ubuntu-Medium.ttf'); 
+}
+
+/*
+    HEADER
+*/
+
+.nav-principal {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  font-family: Ubuntu-Medium;
+  padding-top:40px;
+  
+}
+
+.nav-header {
+  display: flex;
+  width: 600px;
+  align-items: center;
+
+}
+
+.nav-header > img {
+  height: 50px;
+}
+
+.nav-header > p {
+  margin-left: 20px;
+  font-size: 30px;
+  color: white
+
+}
+
+.link {
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #555555;
+  background-color: white;
+  
+}
+.link:last-child {
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  
+}
+
+.links {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.member-list {
+
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
