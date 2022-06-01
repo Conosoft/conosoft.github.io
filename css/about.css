@@ -97,12 +97,22 @@
 
 .member-image {
     background-color: white;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 50px;
     
+}
+
+.linkedin-ico {
+    width: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image-container {
+    text-align: center;
 }
 
 
